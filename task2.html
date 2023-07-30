@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ishani's personal portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Playfair+Display:ital@1&display=swap"
+        rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Pacifico', cursive;
+            font-family: 'Playfair Display', serif;
+
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 90px;
+            background-color: rgb(18, 18, 62);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0px 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(129, 129, 209);
+            font-size: 1.4rem;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .first {
+            display: flex;
+            justify-content: space-around;
+            margin: 140px 0;
+            align-items: center;
+
+
+        }
+
+        .first>div {
+            width: 30%;
+
+        }
+
+        .leftsection {
+            font-size: 2.5rem;
+            /* margin:70px 0 */
+
+
+        }
+        .leftsection .buttons{
+            padding: 25px;
+        }
+
+        .leftsection .btn {
+            padding: 12px;
+            background: #1e2167;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        .btn img {
+        width: 20px;
+        filter: invert(100%);
+    }
+
+
+        .rightsection img {
+
+            width: 100%;
+
+        }
+
+        .well {
+            color: rgb(170, 107, 229);
+        }
+
+        #element {
+            color: rgb(170, 107, 229);
+        }
+
+        main hr {
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+
+        .second {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .second h1 {
+            font-size: 1.9rem;
+        }
+
+        .exp {
+            color: grey;
+        }
+
+        .second .box {
+            background: white;
+            width: 79vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+
+        }
+
+        .second .vertical {
+            height: 66px;
+            width: 1px;
+            background-color: white;
+            margin: 0 200px;
+        }
+
+        .img1 {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+
+        }
+
+        .title1 {
+            position: relative;
+            top: 37px;
+            width: 150px;
+        }
+
+        .text1 {
+            position: relative;
+            top: 53px;
+            color: grey;
+            width: 150px;
+            font-size: 15px;
+        }
+
+        .footer {
+            background-color: #261f2d;
+            ;
+
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+
+        }
+
+        
+
+        footer .center {
+            background-color: #261f2d;
+            text-align: center;
+            padding: 12px;
+            color: grey;
+
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="left"> Ishani Kapoor's portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="task2.html">Home</a></li>
+                    <li> <a href="about.html" target="_blank">About</a></li>
+                    <li> <a href="contact.html">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="first">
+            <div class="leftsection">
+                Hii!!! My name is <span class="well">Ishani Kapoor</span>
+                <div>and I am a</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download CV
+                        <img src="download.jpg" alt="">
+                    </button>
+                    <button class="btn">GITHUB
+                        <img src="github.jpg" alt="">
+                    </button>
+                </div>
+
+            </div>
+            <div class="rightsection">
+                <img src="developer.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="second">
+            <span class="exp">What I have done so far</span>
+            <h1>Education </h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="img1" src="cbse.png" alt="">
+                    <div class="title1">Matriculation(2019)</div>
+                    <div class="text1">
+                        completed class 10th from CBSE board in the year 2019 with 90 percentage.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="img1" src="cbse.png" alt="">
+                    <div class="title1">Intermediate(2021)</div>
+                    <div class="text1">
+                        completed class 12th from CBSE board in the year 2021 with 85 percentage in science stream with
+                        maths as compulsory subject.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="img1" src="graduation.jpg" alt="">
+                    <div class="title1">Bachelor's Of Computer Application(Pursuing)</div>
+                    <div class="text1">
+                        Currently Pursuing BCA from Birla Institute Of Technology.
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <hr>
+        <section class="second">
+            <span class="exp">What I have done so far</span>
+            <h1>Work Experience </h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="img1" src="web.jpg" alt="">
+                    <div class="title1">Web Designing</div>
+                    <div class="text1">
+                        Have knowledge of HTML and CSS. Also basic knowledgeof JAVASCRIPT. I Can design a webpage.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="img1" src="java.jpg" alt="">
+                    <div class="title1">Core Java</div>
+                    <div class="text1">
+                        completed java training from INTERNSHALA in the year 2022.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="img1" src="python.jpg" alt="">
+                    <div class="title1">Python Developer</div>
+                    <div class="text1">
+                        completed python training from INTERNSHALA and marked as top performer in the year 2023
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="f-first">
+                <h2>Ishani's portfolio</h2>
+            </div>
+            
+        </div>
+        <div class="center">
+            Copyright &#169 www.ishanisportfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer.', ' Python Developer.', 'Web Designer.', 'Video and Photo Editor.', 'Core Java Developer.'],
+            typeSpeed: 90,
+        });
+    </script>
+</body>
+
+</html>
